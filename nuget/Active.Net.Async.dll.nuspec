@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Active.Net.Async</id>
+    <version>0.1</version>
+    <authors>Andreas Bernauer, Helmut Dobretzberger, Michael Sperber</authors>
+    <owners>Active Group</owners>
+    <licenseUrl>https://www.eclipse.org/legal/epl-v10.html</licenseUrl>
+    <projectUrl>https://github.com/active-group/Active.Net.Async</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Tiny lib for Async utilities</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2015 Active Group GmbH</copyright>
+    <tags>.NET FSharp Async</tags>
+    <dependencies>
+        <dependency id="FSharp.Core" version="4.3.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+  	<file src="../bin/Debug/Active.Net.Async.dll" target="lib/net44"/>
+  </files>
+</package>
